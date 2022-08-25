@@ -1,0 +1,72 @@
+*{
+	font-size: 20px;
+	color: black !important;
+}
+.logoimg{
+	margin-left: 50px; 
+	margin-top: -25px; 
+	margin-bottom: -25px;
+}
+.btn:hover{
+	color: skyblue;
+	background-color: white;
+}
+h1,h2{
+	text-align: center;
+}
+.btn{
+	box-shadow: 1px 1px 12px 12px rgb(234, 250, 249);
+	transition-duration: 0.5s;
+	color: skyblue;
+	background-color: white;
+	border-radius: 50px;
+}
+.btn1:hover{
+	background-color: skyblue;
+}
+.backimg{
+	margin-top: 150px !important;
+	background-size:100%;
+	background-image: url("bg_building.jpg");
+	background-repeat: no-repeat;
+}
+.Digital{
+	margin: 5%;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+.spanstyle1{
+	border-radius: 50px;
+	border-top-left-radius: 20px ;
+	border-bottom-left-radius: 100px ;
+	transition-duration: 0.5s;
+	padding: -10px;
+}
+.serviceimg{
+	width: 50px;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+.row .col-sm-4 div:nth-child(1){
+	padding-top: 0 !important;
+	justify-items: center;
+	align-items: center;
+	max-height: 120px;
+	min-height: 120px;
+	max-width: 150px;
+	min-width: 150px;
+	background-color: #E4E7E7;
+}
+.row .col-sm-4:hover>div:nth-child(1){
+	cursor: pointer;
+	background-color:skyblue ;
+	box-shadow: 1px 1px 17px 17px rgb(234, 250, 249);
+}
+.row .col-sm-4:hover>div h2{
+	cursor: pointer;
+	color:skyblue ;
+}
